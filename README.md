@@ -1,4 +1,4 @@
-# Covid19 Spread Analysis On Web
+# Covid19 Spread Analysis On Web [Link to project](https://wesley-perrang.github.io/covid19dataanalysis.github.io/)
 
 ## In this python project, we will implement a live dashboard for COVID 19 spread analysis.
 
