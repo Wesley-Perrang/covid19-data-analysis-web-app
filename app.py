@@ -1,0 +1,2 @@
+from Gets_entire_world_data import gets_current_covid19_data
+from Gets_entire_world_data import Gets_South_Africa_data
