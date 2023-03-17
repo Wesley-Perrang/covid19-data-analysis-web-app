@@ -12,7 +12,7 @@ def gets_current_covid19_data():
     data = response.json()
     print(data)
 
-    with open('Entire_world_covid_data.json', 'w') as outfile:
+    with open('./Covid19_data/Entire_world_covid_data.json', 'w') as outfile:
         json.dump(data, outfile)
     
     
