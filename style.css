@@ -4,24 +4,46 @@
   font-family: sans-serif
 
 }
-.banner{
-  width: 100%;
-  height: 100%;
-  text-align: center;
+.Navbar {
+  /* This give the navbar the color,padding aka thicknes and overflow aka only shows whats in the padding or box if hidden */
+  background-color: azure;
+  overflow: hidden;
+  padding: 5px 5px;
   
 }
 
-.Navbar{
-  text-align: end;
+.Navbar a{
+  /*  */
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+
+}
+
+.Navbar a.CovidLogo{
+  /* Make font bigger of logo and thicker with the weight */
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.NavbarRight{
+  /* Take Home,Help,Countries and About Covid 19 and make it start from the right or flow form the right side */
+  float : right;
 }
 
 body {
-    background-image: url(./background_img/website-background.jpg)
+    /* background-image: url(./background_img/website-background.jpg) */
+    background-color: #FFFFFA;
     
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+}
+
+.MainHeading {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
