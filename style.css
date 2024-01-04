@@ -6,7 +6,7 @@
 }
 .Navbar {
   /* This give the navbar the color,padding aka thicknes and overflow aka only shows whats in the padding or box if hidden */
-  background-color: azure;
+  background-color: #30BCED;
   overflow: hidden;
   padding: 5px 5px;
   
@@ -24,6 +24,19 @@
   border-radius: 4px;
 
 }
+
+.Navbar a:hover {
+  /* Change the background color on mouse-over */
+  background-color: #ddd;
+  color: black;
+}
+
+.Navbar a.active {
+  /* Style the active/current link*/
+  background-color: dodgerblue;
+  color: white;
+}
+
 
 .Navbar a.CovidLogo{
   /* Make font bigger of logo and thicker with the weight */
@@ -43,7 +56,28 @@ body {
 }
 
 .MainHeading {
+  /* The Main title of the website in the index page */
   text-align: center;
   padding: 10px;
   color: black;
 }
+
+.Cases{
+  text-align: left;
+}
+
+.Passing{
+  text-align: center;
+}
+
+
+
+
+.footer {
+
+  text-align: center;
+  padding: 20px 20px;
+  color: #FFFFFA;
+  background-color: black;
+}
+
